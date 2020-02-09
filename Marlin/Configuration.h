@@ -485,9 +485,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Crego Printer-3D
-  #define DEFAULT_Kp 22.2
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114
+  #define DEFAULT_Kp 6.43
+  #define DEFAULT_Ki 0.25
+  #define DEFAULT_Kd 40.83
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -536,9 +536,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 51.04
-  #define DEFAULT_bedKi 3.92
-  #define DEFAULT_bedKd 166.20
+  #define DEFAULT_bedKp 18.49
+  #define DEFAULT_bedKi 1.65
+  #define DEFAULT_bedKd 138.35
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -947,7 +947,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 10, 35, -35 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
